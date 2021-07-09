@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+	*{
+		box-sizing: border-box;
+		margin:0;
+  		font-family: cream;
+		font-family: 'Inter', sans-serif;
+		font-weight: bold;
+	}
+
+	.bg-container{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/background.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.bg-container1{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/animal.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bg-container2{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/land.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	.bg-container3{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/plant.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.bg-container4{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/photo.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.bg-container5{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/actor.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.bg-container6{
+		background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/rara.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+
+	.inner{
+		padding-top: 15%;
+		text-align: center;
+		padding-bottom: 15%;
+	}
+	.inner input{
+		border: none;
+		outline: none;
+		padding: 16px;
+		width:10%;
+		border-top-left-radius: 50px;
+    		border-bottom-left-radius: 50px;
+		transition: .55s;
+	}
+	.inner input:focus{
+		width: 80%;
+		transition: .5s;
+	}
+	::placeholder{
+		font-size: 18px;
+		text-align: center;
+		color:  #3a2d2d;
+		font-family: arial;
+	}
+	h2.topic{
+		font-size: 40px;
+		color: white;
+	}
+	
+	button.find{
+		border: none;
+		padding: 16px;
+		width: 7%;
+		outline: none;
+		background: red;
+		cursor: pointer;
+		color: white;	
+	}
+	.logo{
+		position: fixed;
+		top: 3%;
+		left:1%;
+		z-index: 999;
+	}
+	button.btns{
+		width: 100%;
+	}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+[class*="col-"]{
+	float: left;
+	padding: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main{
+	position: relative;
+}
+
+.icon-section{
+	color: white;
+	position: absolute;
+	bottom:7.5%;
+	padding: 15px;
+	background: linear-gradient(rgba(0,0,0,.5), #3a2d2d 99%);
+    	width: 91%;
+	text-align: center;
+	display: none;
+}
+.icon-section .icon{
+	padding: 10px;
+	font-size: 20px;
+	transition: .3s;
+	color: #219e43;
+}
+.main:hover .icon-section{
+	display:block;
+}
+.icon-section .icon:active{
+	font-size: 18px;
+}
+.icon:hover{
+	color: lightgreen;
+	cursor: pointer;
+	transform: scale(1.8);
+	transition: .3s;
+}
+.top-bar{
+	text-align: center;
+}
+
+button.btn{
+	border-radius: 30px;
+	width: 90%;
+	padding: 10px;
+	border: 1px solid #219e43;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+}
+button.btn img{
+	border-radius: 50%;
+	cursor: pointer;
+}
+.top-bar button{
+	cursor: pointer;
+}
+.title{
+	text-align: center;
+}
+.col-2 button{
+	font-size: 16px;
+}
+.footer{
+	background: black;
+	color: white;
+}
+p.foot{
+	font-size: 20px;
+}
+p.a-text{
+	text-align: justify;
+}
+.sub input{
+	width: 100%;
+	padding: 12px;
+	border: none;
+	outline: none;
+}
+button.btns{
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 10px;
+	font-size: 17px;
+	color: white;
+	background: red;
+}
+p.copy{
+	text-align: center;
+	font-size: 18px;
+}
+.col-2 button:hover{
+	background: #219e43;
+	color: white;
+}
+button.uploads{
+	border: #219e43;
+	outline: none;
+	float: right;
+	color: white;
+	margin-right: 10px;
+	padding: 10px 30px;
+	font-size: 18px; 
+	background: #219e43;
+	posItion: fixed;
+	top: 4%;
+	right: 3%;
+	z-index: 9;
+	cursor: pointer;
+	border-radius: 14px;
+}
+input[type="submit"]{
+	cursor: pointer;
+	background: #219e43;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	color: white;
+	
+}
+button.active{
+	background: #219e43;
+	color: white;
+}
+form{
+	text-align: left;
+}	
+form input{
+	width: 70%;
+	padding: 15px;
+	outline: none;
+	display: block;
+	margin-left: 17%;
+	border: 1px solid #ccc;
+	margin-left: 17%;
+}
+form label{
+	margin-left: 17%;
+}
+p.pass{
+	margin-left: 42%;
+	margin-top: -1.2%;
+}
+textarea{
+	width: 70%;
+	padding: 15px;
+	outline: none;
+	display: block;
+	margin-left: 17%;
+	border: 1px solid #ccc;	
+}
+button.post{
+	border: none;
+	outline: none;
+	padding: 15px 50px;
+	color: white;
+	font-size: 16px;
+	background: #219e43;
+	margin-left: 17%;
+	border-radius: 10px;
+}
+form input:focus{
+	border: 1px solid  #219e43;
+}
+textarea:focus{
+	border: 1px solid  #219e43;	
+}
+@media only screen and (max-width: 600px) {
+
+	#input{
+		width: 70%;
+	}
+	button.find{
+		width: 15%;
+	}
+	.logo{
+		width: 70px;
+	}
+	[class*="col-"]{
+		max-width: 100%;
+	}
+	.sub input{
+		max-width: 100%;
+	}
+	button.btns{
+		width: 100%;
+	}
+
+	button.btn {
+    		border-radius: 30px;
+    		padding: 5px;
+    		border: none;
+    		outline: none;
+	}
+	button.uploads{
+		padding: 8px 15px;
+		font-size: 15px;
+	}
+	input[type="submit"]{
+		margin-left: 70%;
+	}
+}

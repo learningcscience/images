@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+
+	<title> Free images</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+
+
+</style>
+
+
+
+<body>
+	
+	<div class="bg-container"><br>
+	<div class="outer1"><a href="index.html"><img src="images/icon.png" class="logo" width="100"></a></div>
+	 <button class="uploads"> Upload </button>
+		<div class="inner">
+			<h2 class="topic"> Free images </h2><br>
+			<input type="text" placeholder="search" id="input"><button class="find"><i class="fa fa-search"> </i></button>
+		</div>
+	</div>
+	<br>
+
+
+
+
+
+	<div class="top-bar">
+		<div class="col-2">
+			<a href="land.html"><button class="btn"><img src="images/land.jpg" width="40" height="40"> Landscape </button></a>
+		</div>
+
+		<div class="col-2">
+			<a href="animal.html"><button class="btn"><img src="images/animal.jpg" width="40" height="40"> Animals </button></a>
+		</div>
+
+
+		<div class="col-2">
+			<a href="plant.html"><button class="btn"><img src="images/plant.jpg" width="40" height="40"> Plants </button></a>
+		</div>
+
+
+		<div class="col-2">
+			<a href="pc.html"><button class="btn"><img src="images/computer.jpg" width="40" height="40"> Computers </button></a>
+		</div>
+
+		<div class="col-2">
+			<a href="city.html"><button class="btn"><img src="images/actor.jpg" width="40" height="40"> City </button></a>
+		</div>
+
+
+		<div class="col-2">
+			<a href="nepal.html"><button class="btn"><img src="images/nepal.jpg" width="40" height="40"> Nepal </button></a>
+		</div>
+
+
+		<br>
+	<div class="row">
+		<div class="co-12">
+		<h2> Upload your image </h2><br><br>	
+		<input type="file" name="filename" id="file">
+		<input type="submit" id="load" onclick="upload(this)">
+		</div>
+		</div>
+	
+		<br>
+		<br>
+		<br>
+
+	
+	<div class="footer">
+		<div class="row">
+			<div class=" col-3 about">
+				<p class="foot"> About Us </p><br>
+				<p class="a-text"> You can download any image from our website
+					              Our all image are coyright free. You can also post your
+					               image if you have </p>
+			</div>
+			
+			<div class="col-3 address">
+				<p class="foot"> Our info </p><br>
+				<p class="a-text"> <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp&nbsp
+					f-images@gmail.com </p><br>
+
+				<p class="a-text"> <i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp&nbsp
+					Kathmandu, New baneshwor </p><br>
+
+
+				<p class="a-text"> <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp&nbsp
+					111-222-3345</p>
+
+
+			</div>
+
+			<div class="col-6 sub">
+				<p class="foot"> Subscribe Us </p><br>
+				<input type="email" placeholder="enter email"><br><br>
+				<button class="btns">Subscribe </button>
+			</div>
+
+		</div>
+				<br><hr><br><br>
+			<p class="copy"> &copy All Right Reserved f-images 2021</p><br>
+	</div>
+
+	<script>
+	function upload(s){
+  		if (document.getElementById("file").value == "") {
+		   		alert("Please select a file.");
+ 	 	}
+		else{
+			alert(" Upload Sucess");
+		}
+	}
+
+
+	</script>
+</body>  
+</html>
